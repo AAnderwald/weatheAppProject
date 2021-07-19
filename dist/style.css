@@ -1,0 +1,65 @@
+.allBody {
+    background: linear-gradient(60deg, #2b5474, #bdd7ec);
+    letter-spacing: 1px;
+   
+}
+
+.weatherOutPut {
+
+    border: 1px solid blue;
+    background: linear-gradient(#eb582b, #f7ee03);
+    height: 300px;
+    width:auto;
+}
+
+.bothDivs {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.divWeather {
+    grid-column: 1;
+}
+
+.divTime {
+    grid-column: 2;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    text-align: right;
+    margin-right: 150px;
+   
+}
+
+/* weather part */
+.weatherIdent1 {
+    margin-left: 15px;
+}
+
+.weatherIdent {
+    margin-left: 25px;
+}
+.weatherIdent2 {
+    margin-left: 35px;
+}
+
+.hrMargin {
+    margin-top: 30px;
+    margin-bottom: 30px;
+   border-top: 2px solid blue;
+
+}
+
+.bodyContainer {
+    padding: 20px;
+    height: 100px;
+    width:auto;
+    background: linear-gradient(#f7ee03, #f7f5be);
+}
+
+#cityName {
+    height: 20px;
+}
+
+
+/* time and day section */
+

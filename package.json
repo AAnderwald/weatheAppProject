@@ -1,0 +1,25 @@
+{
+  "name": "weatheappproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+   	 "start": "start dist/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AAnderwald/weatheAppProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AAnderwald/weatheAppProject/issues"
+  },
+  "homepage": "https://github.com/AAnderwald/weatheAppProject#readme",
+  "dependencies": {
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2"
+  }
+}

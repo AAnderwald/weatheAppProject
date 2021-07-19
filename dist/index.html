@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+   
+    <title>Weather App Project</title>
+
+</head>
+
+<body class="allBody">
+    <h1>Check out how your day is looking</h1>
+
+    <section class="weatherOutPut">
+        <div class="bothDivs">
+            <div class="divWeather">
+                <h1 class="weatherIdent1" id="city"></h1> 
+                
+                <p class="weatherIdent" id="temp"></p>
+                <p class="weatherIdent2" id="description"></p>
+        
+                <p class="weatherIdent" id="temp_min"></p>
+                <p class="weatherIdent" id="temp_max"></p>
+               <br>
+                
+                <p class="weatherIdent" id="humidity"></p>
+                <p class="weatherIdent" id="wind"></p>
+            </div>
+
+            <div class="divTime">
+                <p>today is</p>
+                <h3 id="timeNow"></h3>
+            </div>
+        </div>
+        
+        
+        
+    </section>
+    
+   
+        
+   
+        <hr class ="hrMargin" />
+        <section class="bodyContainer">
+
+            <form id="searchInfo">
+                <label for="cityName"> What city please: </label>
+                <input type="text" name="cityName" id="cityName">
+                <button type="submit" > Search for Weather</button>
+            </form>
+
+        </section>
+  
+
+
+    <script src="main.js"></script>
+    </body>
+</html>
