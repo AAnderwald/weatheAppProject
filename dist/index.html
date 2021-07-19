@@ -11,7 +11,7 @@
 </head>
 
 <body class="allBody">
-    <h1>Check out how your day is looking</h1>
+    <h1>Check how your day is looking</h1>
 
     <section class="weatherOutPut">
         <div class="bothDivs">
@@ -30,9 +30,14 @@
             </div>
 
             <div class="divTime">
-                <p>today is</p>
-                <h3 id="timeNow"></h3>
+                <p> <strong>Hello today is:</strong> </p>
+                <h3 id="para1"></h3>
+                <img class="cloudImg" src="sun-behind-small-cloud_1f324-fe0f.png" alt="cloud image">
+  
             </div>
+
+            
+
         </div>
         
         
@@ -46,9 +51,9 @@
         <section class="bodyContainer">
 
             <form id="searchInfo">
-                <label for="cityName"> What city please: </label>
+                <label class="cityQuestion" for="cityName"> <strong> What city please:  </strong> </label>
                 <input type="text" name="cityName" id="cityName">
-                <button type="submit" > Search for Weather</button>
+                <button class="cityButton" type="submit" > Search for Weather</button>
             </form>
 
         </section>

@@ -1,14 +1,14 @@
 .allBody {
     background: linear-gradient(60deg, #2b5474, #bdd7ec);
     letter-spacing: 1px;
-   
+    color: #030330;
 }
 
 .weatherOutPut {
 
     border: 1px solid blue;
     background: linear-gradient(#eb582b, #f7ee03);
-    height: 300px;
+    height: 320px;
     width:auto;
 }
 
@@ -30,7 +30,6 @@
    
 }
 
-/* weather part */
 .weatherIdent1 {
     margin-left: 15px;
 }
@@ -42,24 +41,48 @@
     margin-left: 35px;
 }
 
+
+/* input part */
+
 .hrMargin {
     margin-top: 30px;
     margin-bottom: 30px;
-   border-top: 2px solid blue;
+    border-top: 2px solid blue;
 
 }
 
 .bodyContainer {
     padding: 20px;
-    height: 100px;
+    height: 150px;
     width:auto;
     background: linear-gradient(#f7ee03, #f7f5be);
 }
 
-#cityName {
-    height: 20px;
+#searchInfo {
+    margin-top: 50px;
 }
 
+.cityQuestion {
+    font-size: 20px;
+    
+}
 
-/* time and day section */
+#cityName {
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cityButton {
+    height: 25px;
+    background-color: #030330;
+    color: #bdd7ec;
+
+}
+
+.cloudImg {
+    height: 180px;
+    width: auto;
+}
+
 
